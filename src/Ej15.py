@@ -12,9 +12,9 @@ dinerodep = int(input("Introduce el dinero que depositará: "))
 
 primer = 4*dinerodep / 100 + dinerodep
 
-segundo = 0
+segundo = 4*primer / 100 + primer
 
-tercero = 0
+tercero = 4*segundo / 100 + segundo
 
 print(f"El usuario {usuario} ha depositado {dinerodep}")
 print(f"La cantidad de ahorros del primer año ha sido {primer}€; la del segundo {segundo}€; y la del tercero {tercero}€")
