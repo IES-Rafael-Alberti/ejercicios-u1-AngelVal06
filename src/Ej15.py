@@ -17,4 +17,4 @@ segundo = 4*primer / 100 + primer
 tercero = 4*segundo / 100 + segundo
 
 print(f"El usuario {usuario} ha depositado {dinerodep}")
-print(f"La cantidad de ahorros del primer año ha sido {primer}€; la del segundo {segundo}€; y la del tercero {tercero}€")
+print(f"La cantidad de ahorros del primer año ha sido {round(primer,2)}€; la del segundo {round(segundo,2)}€; y la del tercero {round(tercero,2)}€")
