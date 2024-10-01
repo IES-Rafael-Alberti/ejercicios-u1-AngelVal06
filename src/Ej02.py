@@ -1,3 +1,7 @@
+# Escribe un programa para pedirle al usuario las horas de trabajo y el precio por hora y calcule el importe total del servicio.
+
+
+
 num1 = int(input("Dime tus horas de trabajo \n"))
 
 num2 = int(input("Dime tu paga por hora\n"))
