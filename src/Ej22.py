@@ -4,6 +4,6 @@
 
 frase = input("Escríbeme un frase: ")
 
-vocal = input("Dime una vocal: ")
+vocal = input("Dime una vocal: ").lower()
 
 print(f"{frase}  {vocal.upper()}")
