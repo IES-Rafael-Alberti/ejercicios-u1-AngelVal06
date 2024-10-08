@@ -8,4 +8,4 @@ num2 = 10
 
 num3 = num1 * num2 /100 - num1 
 
-print(f"El precio final del artículo es {num3} €")
+print(f"El precio inicial del artículo es {round(num3,2)} €")

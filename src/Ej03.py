@@ -11,3 +11,15 @@ print(ancho / 2)
 print(ancho // 2)
 print(alto / 2)
 print(ancho + alto * 5)
+
+
+
+print(ancho / alto)
+print(ancho // 2)
+print(ancho / 2)
+print(ancho * 2)
+print(ancho * alto)
+print((5 + 1) * 3)
+print((5 + 1) / 3)
+
+print(f" {ancho / alto = } y es de tipo {type(ancho / alto)}")

@@ -14,10 +14,10 @@ def dame_entero() -> int:
     return int(cadena)
 
 
-def main()
+def main():
     num = dame_entero()
     print(f"Escribe el número {num}")
 
     
-if __name__ == "__main__"
+if __name__ == "__main__":
     main()
