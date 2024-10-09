@@ -5,7 +5,12 @@
 
 
 
-nombre = input("Introduce el nombre del producto: ")
-precio = float(input("Introduce el precio del producto: "))
-unidades = int(input("Introduce el número de unidades: "))
+nombre_producto = input("Introduce el nombre del producto: ")
+precio_unitario = float(input("Introduce el precio del producto: "))
+numero_unidades = int(input("Introduce el número de unidades: "))
+
+coste_total = precio_unitario * numero_unidades
+
+print(f"{nombre_producto} {precio_unitario:>6} {numero_unidades:3d} {coste_total:8.2f}")
+
 
