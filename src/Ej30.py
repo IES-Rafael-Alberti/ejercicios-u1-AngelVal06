@@ -8,3 +8,4 @@
 
 
 
+número_inicio = int(input("Introduce número de inicio: "))
