@@ -8,4 +8,34 @@
 
 
 
-número_inicio = int(input("Introduce número de inicio: "))
+
+def comprueba_incremento(valor):
+    while (valor <= 0):
+        print("Debe ser mayor a cero")
+        valor = int(input("Dime el incremento: "))
+    return valor
+
+
+
+def comprueba_total(valor):
+    while (valor <= 0):
+        print("Debe ser mayor a cero")
+        valor = int(input("Dime el total: "))
+    return valor
+
+
+def comprobar_serie(valor):
+
+def main():
+    Incremento = int(input("Dime el incremento: "))
+    Incremento = comprueba_incremento(Incremento)
+    total = float(input("Dime el total: "))
+    total = comprueba_total(total)
+
+
+
+
+
+
+if __name__ == "__main__":
+    main()
